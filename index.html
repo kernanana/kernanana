@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="shortmenu navbar navbar-dark fixed-top">
+  <nav class="shortmenu navbar navbar-dark fixed-top" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <a class="navbar-brand" href="#">Kernan Lee</a>
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
       data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -32,6 +32,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#workexperience">Work Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
@@ -52,7 +55,7 @@
       <img id="profile_pic" src="images/kern2.JPG" width="270" class="img-responsive img-circle"
         style="border:8px solid white" alt="">
       <h1 id="header1">Kernan Lee</h1>
-      <h2 id="header2">Software Engineering - Economics - Entrepreneurship - Art</h2>
+      <h2 id="header2">Software Engineering - Economics - Web Programming</h2>
       <div id="smallemptyspace"></div>
       <div class="centerit">
         <a href="#contact"><button id="contactButton" type="button"
@@ -97,7 +100,7 @@
           web
           development, economics, articifial intelligence, and data science.
         </p>
-        <p class="skilldesc">In my free time, I like to experiment with code with friends, play sports, and recently watch Tarantino movies.
+        <p class="skilldesc">In my free time, I like to experiment with code, play sports.
         </p>
         <p class="skilldesc" style="color: yellow; font-style: italic;">Please feel free to look around!</p>
       </div>
@@ -118,7 +121,7 @@
             <i class="icon bi-joystick" style=""></i>
           </span>
           <h4 class="skilldesc">
-            <b>Python</b>
+            <b class="skillName">Python</b>
           </h4>
         </div>
 
@@ -127,7 +130,7 @@
             <i class="icon bi-cup" style=""></i>
           </span>
           <h4 class="skilldesc">
-            <b>Java</b>
+            <b class="skillName">Java/C#</b>
           </h4>
         </div>
 
@@ -136,10 +139,10 @@
             <i class="icon bi-laptop" style=""></i>
           </span>
           <h4 class="skilldesc">
-            <b class="fulltext">HTML/Javascript/CSS</b>
+            <b class="fulltext skillName">HTML/Javascript/CSS</b>
           </h4>
           <h4 class="skilldesc">
-            <b class="shorttext">HTML/Java<br>script/CSS</b>
+            <b class="shorttext skillName">HTML/Java<br>script/CSS</b>
           </h4>
         </div>
 
@@ -148,7 +151,7 @@
             <i class="icon bi-clipboard-data" style=""></i>
           </span>
           <h4 class="skilldesc">
-            <b>SQL</b>
+            <b  class="skillName">SQL</b>
           </h4>
         </div>
 
@@ -157,7 +160,7 @@
             <i class="icon bi-keyboard-fill" style=""></i>
           </span>
           <h4 class="skilldesc">
-            <b>C</b>
+            <b class="skillName">C</b>
           </h4>
         </div>
 
@@ -166,30 +169,119 @@
             <i class="icon bi-book" style=""></i>
           </span>
           <h4 class="skilldesc">
-            <b class="fulltext">Bootstrap/jQuery</b>
+            <b class="fulltext skillName">Bootstrap/jQuery</b>
           </h4>
           <h4 class="skilldesc">
-            <b class="shorttext">Bootstrap<br>/jQuery</b>
+            <b class="shorttext skillName">Bootstrap<br>/jQuery</b>
           </h4>
         </div>
         <div id="emptyspace"></div>
       </div>
     </div>
 
+    <div id="workexperience" class="centerit">
+      <div id="emptyspace"></div>
+      <h1 id="workexpTitle">WORK EXPERIENCE</h1>
+      <div class="timeline">
+        <!-- experience1 -->
+        <div id="emptyspace"></div> 
+        <p class="timelineDate1">September 2022 to Current</p>
+        <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+          <img class="timeline__event__icon" src="images/rhvlogo.jpg">
+          <div class="timeline__event__date">
+            eRAMx
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Rose-Hulman Ventures
+            </div>
+            <div class="timeline__event__description">
+              <p>This fall quarter, I have been part of a full-stack mobile app project
+                that serves the healthcare industry and criminal justice system with our client eRAMx. The app makes it possible 
+                to observe individuals under court supervision and/or physician-ordered medication regimens taking their meds
+                in a real-time, two-way visual/audio communication.
+              </p>
+              <p><a href="https://eramxlive.com/">Link to eRAMx Live</a></p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- experience2 -->
+        <div></div>
+        <p class="timelineDate2">Summer 2023</p>  
+        <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+          <img class="timeline__event__icon" src="images/internapplication.jpg">
+          <div class="timeline__event__date">
+            TBA
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Currently Applying
+            </div>
+            <div class="timeline__event__description">
+              <div id="smallemptyspace"></div>
+              <p>I am currently looking for something to do this summer!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+          <div class="timeline__event__icon">
+            <i class="lni-slim"></i>
+      
+          </div>
+          <div class="timeline__event__date">
+            20-08-2019
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Exercise
+            </div>
+            <div class="timeline__event__description">
+              <p>Lorem, ipsum d olor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
+                accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!
+              </p>
+            </div>
+      
+          </div>
+        </div>
+        <div class="timeline__event animated fadeInUp timeline__event--type1">
+          <div class="timeline__event__icon">
+            <i class="lni-cake"></i>
+      
+          </div>
+          <div class="timeline__event__date">
+            20-08-2019
+          </div>
+          <div class="timeline__event__content">
+            <div class="timeline__event__title">
+              Birthday
+            </div>
+            <div class="timeline__event__description">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores,
+                accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!
+              </p>
+            </div>
+          </div>
+        </div> -->
+      
+      </div>
+      <div id="emptyspace"></div>
+    </div>
+
     <div id="projects" class="centerit">
       <div id="emptyspace"></div>
       <h1 id="projectsTitle">PROJECTS</h1>
-      <p class="projectsbio">These are some of my personal projects. There are many more to come!</p>
-      <div id="emptyspace"></div>
+      <p class="projectsbio"></p>
 
       <div class="row projectContainer">
 
         <div class="projectBox columns">
           <a class="popup" data-toggle="modal" href="#CBmodal">
-            <span id="geneticAlgorithm">
+            <span id="geneticAlgorithm" onmouseover="this.style.background='rgb(32, 145, 145)';" onmouseout="this.style.background='rgba(33, 37, 41, 0.2)';">
               <span class="caption">
                 <div id="emptyspace"></div>
-                <h4 class="blueColor">Cookbook Database</h4>
+                <h4 class="blueColor2">Cookbook Database</h4>
                 <p>An online cookbook website. <span class="errorText"></span></p>
                 <img class="img-fluid projectImage" src="images/Cookbook.PNG" alt="">
               </span>
@@ -199,10 +291,10 @@
 
         <div class="projectBox columns">
           <a class="popup" data-toggle="modal" href="#PSmodal">
-            <span id="geneticAlgorithm">
+            <span id="geneticAlgorithm" onmouseover="this.style.background='rgb(32, 145, 145)';" onmouseout="this.style.background='rgba(33, 37, 41, 0.2)';">
               <span class="caption">
                 <div id="emptyspace"></div>
-                <h4 class="blueColor">Web Development</h4>
+                <h4 class="blueColor2">Web Development</h4>
                 <p>A collection of websites I've coded in the past</p>
                 <img class="img-fluid projectImage" src="images/lepetiteprice.jpg" alt="">
               </span>
@@ -212,10 +304,10 @@
 
         <div class="projectBox columns">
           <a class="popup" data-toggle="modal" href="#HBTmodal">
-            <span id="geneticAlgorithm">
+            <span id="geneticAlgorithm" onmouseover="this.style.background='rgb(32, 145, 145)';" onmouseout="this.style.background='rgba(33, 37, 41, 0.2)';">
               <span class="caption">
                 <div id="emptyspace"></div>
-                <h4 class="blueColor">Editor Trees</h4>
+                <h4 class="blueColor2">Editor Trees</h4>
                 <p>A height balance tree with additional features meant to replicate the funtions of a type cursor"
                 </p>
                 <img class="img-fluid projectImage" src="images/editTree.png" alt="">
@@ -226,10 +318,10 @@
 
         <div class="projectBox columns">
           <a class="popup" data-toggle="modal" href="#GAmodal">
-            <span id="geneticAlgorithm">
+            <span id="geneticAlgorithm" onmouseover="this.style.background='rgb(32, 145, 145)';" onmouseout="this.style.background='rgba(33, 37, 41, 0.2)';">
               <span class="caption">
                 <div id="emptyspace"></div>
-                <h4 class="blueColor">Genetic Algorithm & Visualizer</h4>
+                <h4 class="blueColor2">Genetic Algorithm & Visualizer</h4>
                 <p>Simple heuristic program with visualizer based on "How Learning Can Guide Evolution"</p>
                 <img class="img-fluid projectImage" src="images/genetic_algorithm.png" alt="">
               </span>
@@ -239,10 +331,10 @@
 
         <div class="projectBox columns">
           <a class="popup" data-toggle="modal" href="#ARCADEmodal">
-            <span id="geneticAlgorithm">
+            <span id="geneticAlgorithm" onmouseover="this.style.background='rgb(32, 145, 145)';" onmouseout="this.style.background='rgba(33, 37, 41, 0.2)';">
               <span class="caption">
                 <div id="emptyspace"></div>
-                <h4 class="blueColor">Python Arcade Game</h4>
+                <h4 class="blueColor2">Python Arcade Game</h4>
                 <p>My very first code project. A charade of various, simple arcade games.</p>
                 <img class="img-fluid projectImage" src="images/pygame.PNG" alt="">
               </span>
@@ -267,7 +359,6 @@
 
 
   <!-- modal stuff -->
-
   <div id="CBmodal" class="projectModal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-body modal-content modal-lg">
 
