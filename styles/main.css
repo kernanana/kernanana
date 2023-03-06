@@ -227,7 +227,7 @@ h5 {
 
 .projectImage{
     /* make sure to use images of dimension */
-    
+    margin-bottom: 15px;
 }
 
 .errorText{
@@ -406,7 +406,7 @@ h5 {
     display: flex;
     font-weight: 600;
     align-self: center;
-    transform: translate(calc(40vw - 86px));
+    transform: translate(calc(40vw - 106px));
 }
 
   .timeline {
@@ -664,4 +664,30 @@ h5 {
     100% {
       left: 100%;
     }
+  }
+
+  .interpreterListHolder{
+    width: 500px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .interpreterList{
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .interpreterProcessBox{
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .interpreterProcess{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .projectBoxDate{
   }
