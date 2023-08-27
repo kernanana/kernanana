@@ -180,8 +180,18 @@ h5 {
     color: white;
 }
 
+dd {
+  color: #191e22;
+}
+
+.roomToBreathe {
+  margin: 7px;
+}
+
 .skillName{
     color: rgb(162, 214, 214);
+    font-size: 1.3em;
+    margin: 10px;
 }
 
 .skillsbio {
@@ -196,6 +206,10 @@ h5 {
 
 .skilldesc {
     text-align: center;
+}
+
+.skillBullets {
+  text-align: left;
 }
 
 #workexperience{
@@ -262,6 +276,18 @@ h5 {
     bottom: 0;
     z-index: 1;
     justify-content: center;
+}
+
+.workExp {
+  color: greenyellow;
+}
+
+.projectExp {
+  color: palevioletred;
+}
+
+.schoolExp {
+  color: lightblue;
 }
 
 .caption {
@@ -332,6 +358,7 @@ h5 {
     color: gold;
 }
 
+/* MEDIA */
 
 @media(max-width: 500px) {
     .fulltext{
@@ -667,7 +694,6 @@ h5 {
   }
 
   .interpreterListHolder{
-    width: 500px;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
